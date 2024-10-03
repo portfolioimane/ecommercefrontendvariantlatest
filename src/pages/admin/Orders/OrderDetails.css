@@ -1,0 +1,24 @@
+.order-details-container {
+    padding: 20px;
+    max-width: 800px; /* Restrict maximum width for a cleaner look */
+    margin: auto; /* Center the container */
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.order-details-card {
+    border: none; /* Remove border */
+    border-radius: 10px; /* Match card radius */
+}
+
+.order-items-table {
+    margin-top: 20px; /* Add spacing above table */
+}
+
+.color-circle {
+    width: 20px; /* Circle width */
+    height: 20px; /* Circle height */
+    border-radius: 50%; /* Makes it circular */
+    display: inline-block; /* Allows for inline display */
+}

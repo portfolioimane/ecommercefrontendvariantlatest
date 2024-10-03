@@ -1,0 +1,118 @@
+
+.cart-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.cart-table th, .cart-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size:16px !important;
+}
+
+.cart-table th {
+  background-color: #f8f9fa; /* Light gray background for header */
+  font-weight: bold;
+}
+
+.cart-item {
+  height: 80px; /* Adjusted height for consistent row size */
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  vertical-align: middle; /* Align image vertically in the middle */
+  display: inline-block; /* Ensure image aligns with text */
+}
+
+.remove-button {
+  background-color: #dc3545 !important; /* Bootstrap Danger color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.total-price {
+  font-weight: bold;
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+
+.checkout-button {
+  background-color: #ffc107 !important; /* Yellow color */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+
+.cart-container {
+  padding: 20px;
+}
+
+.cart-table {
+  margin-top: 20px;
+}
+
+.item-image {
+  width: 50px; /* Adjust size as necessary */
+  height: auto;
+  margin-right: 10px;
+}
+
+.variant-details {
+  display: flex;
+  align-items: center;
+}
+
+.color-swatch {
+  width: 20px; /* Adjust size as necessary */
+  height: 20px; /* Adjust size as necessary */
+  border-radius: 50%; /* Circle shape */
+  margin-right: 5px;
+  border: 1px solid #ccc; /* Optional border */
+}
+
+.empty-cart {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.loading, .error {
+  text-align: center;
+  margin-top: 20px;
+  color: #d9534f; /* Red color for error messages */
+}
+
+.total-price {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.checkout-button {
+  margin-top: 20px;
+}
